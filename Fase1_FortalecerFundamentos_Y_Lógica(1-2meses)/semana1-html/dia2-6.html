@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio - Estructura Semantica</title>
+</head>
+
+<body>
+
+<!--aqui va el titulo principal-->
+    <header>
+        <h1>Mi Portafolio</h1>
+        <p>Bienvenido a mi portafolio personal. Aquí encontrarás información sobre mis proyectos y habilidades.</p>
+    </header>
+
+<!--aqui va la barra de navegacion-->
+    <nav>
+        <ul>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+<!--aqui va el contenido principal-->
+    <main>
+        <!--seccion de proyectos-->
+        <!--cada proyecto es un articulo-->
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <article>
+                <h3>Proyecto 1: Sitio Web Personal</h3>
+                <p>Descripción del proyecto 1.</p>
+            </article>
+            <article>
+                <h3>Proyecto 2: Aplicación de Tareas</h3>
+                <p>Descripción del proyecto 2.</p>
+            </article>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de mi correo electrónico:
+    </main>
+<!--aqui va el contenido secundario-->
+    <main>
+        <h2>hobbis</h2>
+        <p>Me gusta jugar videojuegos, programar y ver anime.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, esse? Et, dolorem omnis quod rem eveniet ut, voluptate autem, delectus error quis magni molestiae ipsam perferendis maxime ad quia consequuntur!</p>
+        <a href="https://google.com">google</a>
+    </main>
+
+    <main>
+<!--seccion de galeria-->
+        <section id="galeria">
+            <h2>Galeria de Proyectos</h2>
+            <img src="proyecto1.png" alt="Captura del Proyecto 1" width="300px" height="200px">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fes%2Fs%2Ffotos%2Fim%25C3%25A1genes-impresionantes&psig=AOvVaw0JBqGEhJsnTtJw9WC5HWu7&ust=1763008119144000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOC4tJjj65ADFQAAAAAdAAAAABAE" alt="Captura del Proyecto 2" width="300px" height="200px">
+        </section>
+    </main>
+
+    <figure>
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fes%2Fs%2Ffotos%2Fim%25C3%25A1genes-impresionantes&psig=AOvVaw0JBqGEhJsnTtJw9WC5HWu7&ust=1763008119144000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOC4tJjj65ADFQAAAAAdAAAAABAE" alt="Imagen impresionante">
+        <figcaption>Imagen impresionante de Unsplash</figcaption>
+    </figure>
+
+<!--aqui ira el apartado de contactos-->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        
+        <form action="">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+
+<!--mi horario de atencion formato tabla-->
+        <h2>Horario de Atención</h2>
+        <table border="1">
+            <tr>
+                <th>Día</th>
+                <th>Horario</th>
+            </tr>
+            <tr>
+                <td>Lunes a Viernes</td>
+                <td>9:00 AM - 6:00 PM</td>
+            </tr>
+            <tr>
+                <td>Sábado</td>
+                <td>10:00 AM - 4:00 PM</td>
+            </tr>
+            <tr>
+                <td>Domingo</td>
+                <td>Cerrado</td>
+            </tr>
+        </table>
+    </section>
+
+<!--Elementos de texto especiales (texto de despedida y agradecimiento)-->
+    <aside>
+        <h2>Mensaje de Agradecimiento</h2>
+        <p>Gracias por visitar <strong><em>mi portafolio.</em></strong> Espero que encuentres interesante mi trabajo y no dudes en contactarme para cualquier consulta o colaboración.</p>
+        <blockquote>El único modo de hacer un gran trabajo es amar lo que haces. - Steve Jobs</blockquote>
+    </aside>
+<!--aqui va el pie de pagina-->
+    <footer>
+        <p>&copy; 2024 Mi Portafolio</p>
+    </footer>
+</body>
+
+</html>

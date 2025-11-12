@@ -1,0 +1,121 @@
+<!--Requisitos Minimos-->
+<!--Estrutura semantica completa (header,nav,main,footer)-->
+<!--Al menos 3 secciones diferentes-->
+<!--Una lista de habilidades-->
+<!--Un menos 2 imagenes-->
+<!--un formulario de contacto-->
+<!--una tabla (horario, experiencia,etc..)-->
+<!--Enlaces internos y externos-->
+<!--Elementos de texto especiales-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+</head>
+<body>
+<!-- Header con titulo y barra de navegacion -->
+    <header>
+        <!-- Titulo del portafolio -->
+        <h1>Mi Portafolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- navegacio -->
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre Mí</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+<!-- Seccion principal con informacion sobre mi, habilidades y contacto -->
+    <main>
+        <!-- Seccion Sobre Mí -->
+        <section id="about">
+            <h2>Sobre Mí</h2>
+            <p>Soy un <b>desarrollador web apasionado</b> por crear experiencias digitales atractivas y funcionales.</p>
+            <img src="mi-foto.jpg" alt="Foto de Mi">
+        </section>
+
+        <!-- Seccion Habilidades -->
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <img src="habilidades.png" alt="Iconos de Habilidades">
+        </section>
+
+        <!-- Seccion Contacto -->
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Mensaje:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                
+                <input type="submit" value="Enviar">
+            </form>
+
+            <!--tabla de experiencia, etc...-->
+            <h3>Experiencia Laboral</h3>
+            <table border="1">
+                <tr>
+                    <th>Año</th>
+                    <th>Empresa</th>
+                    <th>Posición</th>
+                </tr>
+                <tr>
+                    <td>2020</td>
+                    <td>Empresa A</td>
+                    <td>Desarrollador Junior</td>
+                </tr>
+                <tr>
+                    <td>2021</td>
+                    <td>Empresa B</td>
+                    <td>Desarrollador Semi-Senior</td>
+                </tr>
+            </table>
+            <!--tabla de horarios de atencion, etc...-->
+            <h3>Horarios de atencion<h3>
+            <table border="1">
+                <tr>
+                    <th>Día</th>
+                    <th>Horario</th>
+                </tr>
+                <tr>
+                    <td>Lunes a Viernes</td>
+                    <td>9:00 AM - 6:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Sábado</td>
+                    <td>10:00 AM - 2:00 PM</td>
+                </tr>
+            </table>
+        </section>
+    </main> 
+
+<!-- Footer con informacion adicional -->
+    <footer>
+        <p>&copy; 2024 Mi Portafolio. Todos los derechos reservados.</p>
+        <p>Visita mi <a href="https://www.mi-sitio-web.com" target="_blank">sitio web</a> para más información.</p>
+    </footer>
+</body>
+</html>
